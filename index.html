@@ -2,34 +2,75 @@
 
 <html>
     <head>
+        <meta charset="utf8" />
+
         <title>Libby's Learning Gardens page</title>
+
+        <link rel="stylesheet" href="style.css" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
 
-        <h1>Libby's Learning Gardens page</h1>
+        <div id="container">
 
-        <p>Here are some projects I've worked on lately:</p>
+            <header>
+                <h1>Libby's Learning Gardens page</h1>
+            </header>
 
-        <ul>
-            <li><a href="https://github.com/emhoracek/smooch">Smooch</a> -- A JavaScript/Haskell/C project to create a browser-based KiSS doll viewer</li>
-            <li><a href="https://github.com/positiondev/larceny">Larceny</a> -- A Haskell HTML templating library, with Daniel and David from Position</li>
-            <li><a href="https://github.com/positiondev/offset">Offset</a> -- A Haskell library that uses Larceny to make templates that can query a WordPress API (again a Position project)</li>
-            <li><a href="https://github.com/emhoracek/dominique">Dominique</a> -- A PICO-8 adaptation of Angelique (barely started)</li>
-        </ul>
+            <main>
+                <h2>Updates and what's new</h2>
 
-        <p>I work on Haskell web applications for work and for fun! Here's my typical stack:</p>
+                <div id="updates">
 
-        <ul>
-            <li><a href="http://fnhaskell.com/">Fn</a> -- routing framework</li>
-            <li><a href="https://github.com/positiondev/larceny">Larceny</a>, <a href="https://hackage.haskell.org/package/heist">Heist</a>, or <a href="https://hackage.haskell.org/package/blaze-html">Blaze</a> -- HTML templating</li>
-            <li><a href="https://hackage.haskell.org/package/aeson">Aeson</a> -- JSON generation and parsing</li>
-            <li><a href="https://hackage.haskell.org/package/opaleye">Opaleye</a> -- SQL generation</li>
-            <li><a href="https://hackage.haskell.org/package/postgresql-simple">postgres-simple</a> -- SQL querying</li>
-            <li><a href="https://hackage.haskell.org/package/digestive-functors">Digestive Functors</a> -- form processing and validation</li>
-        </ul>
+                    <div class="update">
+                    <h3>July 7, 2017</h3>
 
-        <p>Love to talk Haskell with folks, email me! libby@daydrea.me</p>
+                    <p>Playing with CSS and HTML like I haven't since XHTML 1.0 was fancy! So many fun things! Like <em>flexbox</em>!</p>
+                    </div>
+
+                </div>
+
+                <div id="recent">
+
+                    <h2>Recent projects</h2>
+
+                <p>Here are some projects I've worked on lately:</p>
+
+                <dl>
+                    <div>
+                      <dt><a href="https://github.com/emhoracek/smooch">Smooch</a></dt>
+                      <dd>A JavaScript/Haskell/C project to create a browser-based KiSS doll viewer</dd>
+                    </div>
+                    <div>
+                        <dt><a href="https://github.com/positiondev/larceny">Larceny</a></dt>
+                        <dd>A Haskell HTML templating library, with Daniel and David from Position</dd>
+                    </div>
+                    <div>
+                        <dt><a href="https://github.com/positiondev/offset">Offset</a></dt>
+                        <dd>A Haskell library that uses Larceny to make templates that can query a WordPress API (again a Position project)</dd>
+                    </div>
+                    <div>
+                        <dt><a href="https://github.com/emhoracek/dominique">Dominique</a></dt>
+                        <dd>A PICO-8 adaptation of Angelique (barely started)</dd>
+                    </div>
+                </dl>
+
+            </div>
+
+        </main>
+
+        <nav>
+            <ul>
+                <li><a href="haskell.html">Haskell</a></li>
+                <li>Things I Like (soon)</li>
+                <li>Links (soon)</li>
+                <li><a href="mailto:libby@daydrea.me">Contact me</a></li>
+            </ul>
+        </nav>
+
+        </div>
 
     </body>
 </html>
